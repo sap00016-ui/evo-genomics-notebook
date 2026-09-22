@@ -1,0 +1,18 @@
+# Evolutionary Genomics Lab Journal - Wk3: Population Genomic Analysis in R 
+
+## R & RStudio Setup, Basic R Operations, and Population Genomics Analysis 
+- **Date:** [September 9, 2026] 
+- **OS Environment:** [Windows WSL Ubuntu] 
+
+## Completed Tasks: 
+- Setup R and RStudio on Windows 
+- In R: 
+  - Setup working directory in R 
+  - Practiced basic R operations such as loading packages 
+  - Data visualization using ggplot2 
+- Learnt and practiced running basic population genetics & population structure analysis with PCAs 
+- Worked with Scutellaria saxatilis dataset to practice population genetics to generate Figure 1: PCA Ordination Cleaned  
+- Saved R session to working directory: my_workspace_Scutellaria_popgen_260901
+- Answered follow-up questions within R in "Wk3_LabNotebookScript" 
+
+
