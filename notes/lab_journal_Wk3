@@ -179,3 +179,28 @@ ggsave("Figure1_PCA_Ordination_Cleaned.pdf", p_pca, width = 8, height = 6)
 save.image(file = "my_workspace_Scutellaria_popgen_260901.RData")
 #load("my_workspace_Scutellaria_popgen_20260901.RData")
 
+#---------------------------------------------------------------------------------------------------------#
+
+#Q1: How would you characterize these populations at the state/regional level, in terms of Ho, He, and Fis? 
+  #Answer: The 3 state/regional level populations differ in their genetic diversity levels, with WV having the highest Ho, the smallest He, and thus the lowest Fis. The positive Fis values from the 3 states indicates that there are departures from Hardy-Weinberg equilibrium, with the strongest departures observed in Ohio and Virginia. 
+
+
+#Q2: Can you come up with some R code, on your own (use any resource at your disposal), to calculate the ratio of Ho/He? Can you use an R command to add those values as as extra column to the table below: 
+
+  #print(diversity_summary)
+   #    State         Ho         He       Fis
+   # OH    OH 0.03450745 0.07198302 0.4687619
+   # VA    VA 0.03671553 0.08497867 0.4264113
+   # WV    WV 0.05583188 0.06413520 0.1307114
+ 
+ #Answer: typed below: 
+
+# diversity_summary_$Ho_He <- diversity_summary$Ho / diversity_summary$He 
+# print(diversity_summary)
+
+
+#Q3: Examine the PCA output. How would you describe the population structure of S. saxatilis, if there is any? Are there any patterns of distinctness among the states or localities (subpopulations)? 
+  #Answer: From the PCA figure, it looks as though there is some population structure along PC1. The state groups are not completely separated, indicating that there is likely genetic similarity among populations. There is also some structure among the subpopulations within states. WV and VA subpopulations are seen concentrated toward the negative PC1 region. The overlap of many subpopulations indicates that there is no absolute differentiation. Overall, the PCA indicates population structure geographically but without strong genetic separation due to overlap seen across states and subpopulations. 
+
+
+
